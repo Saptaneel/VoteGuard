@@ -24,26 +24,26 @@ VoteGuard is a secure voting system developed using Node.js, Express.js, MongoDB
    ```sh
    https://github.com/Saptaneel/VoteGuard
 
-  2. Navigate to the project directory
+  2. **Navigate to the project directory**
 cd voteguard
-3. Install dependencies
+3. **Install dependencies**
  npm install
 
-4. Set up environment variables
+4. **Set up environment variables**
 Create a .env file in the root directory and add the following variables:
 
 PORT=your_port_number
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 
-5. Start the application
+5. **Start the application**
 
 npm start
 
 
-API Endpoints
-Authentication
-Sign Up
+**API Endpoints**
+**Authentication**
+**Sign Up**
 
 URL: /api/auth/signup
 Method: POST
@@ -55,7 +55,7 @@ json
   "aadharNumber": "string",
   "password": "string"
 }
-Login
+**Login**
 
 URL: /api/auth/login
 Method: POST
@@ -67,13 +67,13 @@ json
   "aadharNumber": "string",
   "password": "string"
 }
-Voting
-Get Candidates
+**Voting**
+**Get Candidates**
 
 URL: /api/vote/candidates
 Method: GET
 Description: Retrieve the list of candidates.
-Vote
+**Vote**
 
 URL: /api/vote
 Method: POST
@@ -84,13 +84,13 @@ json
 {
   "candidateId": "string"
 }
-Get Vote Counts
+**Get Vote Counts**
 
 URL: /api/vote/counts
 Method: GET
 Description: Retrieve the real-time vote counts for candidates.
-Admin
-Add Candidate
+**Admin**
+**Add Candidate**
 
 URL: /api/admin/candidate
 Method: POST
@@ -102,7 +102,7 @@ json
   "name": "string",
   "party": "string"
 }
-Update Candidate
+**Update Candidate**
 
 URL: /api/admin/candidate/:id
 Method: PUT
@@ -114,18 +114,11 @@ json
   "name": "string",
   "party": "string"
 }
-Delete Candidate
+**Delete Candidate**
 
 URL: /api/admin/candidate/:id
 Method: DELETE
 Description: Delete a candidate.
-Learning Outcomes
-API Handling: Gained experience in handling APIs using Postman.
-CRUD Operations: Learned to perform CRUD operations in MongoDB.
-Password Hashing: Implemented password hashing using the Bcrypt package.
-Middleware Authentication: Developed skills in creating middleware for authentication.
-License
-This project is licensed under the MIT License.
 
 Make sure to replace placeholders like `yourusername`, `your_port_number`, `your_mongodb_connection_string`, `your_jwt_secret_key`, and `your-email@example.com` with your actual information.
 
