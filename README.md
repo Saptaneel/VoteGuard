@@ -34,7 +34,8 @@ VoteGuard is a secure voting system developed using Node.js, Express.js, MongoDB
     npm install
 ```
 4.**Set up environment variables**
-Create a .env file in the root directory and add the following variables:
+
+** Create a .env file in the root directory and add the following variables:**
 ```sh
 PORT=your_port_number
 MONGO_URI=your_mongodb_connection_string
@@ -54,9 +55,9 @@ JWT_SECRET=your_jwt_secret_key
 
 URL: /api/auth/signup
 ```
-Method: POST
-Description: Register a new user with Aadhar Card number and password.
-Body Parameters:
+**Method: POST**
+**Description: Register a new user with Aadhar Card number and password**.
+**Body Parameters:**
 ```sh
 json
 
@@ -70,9 +71,9 @@ json
 
 URL: /api/auth/login
 ```
-Method: POST
-Description: Log in a user with Aadhar Card number and password.
-Body Parameters:
+**Method: POST**
+**Description: Log in a user with Aadhar Card number and password.**
+**Body Parameters:**
 ```sh
 json
 
@@ -87,8 +88,9 @@ json
 
 URL: /api/vote/candidates
 ```
-Method: GET
-Description: Retrieve the list of candidates.
+**Method: GET**
+
+**Description: Retrieve the list of candidates.**
 
 **Vote**
 ```sh
