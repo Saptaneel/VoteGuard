@@ -57,6 +57,7 @@ URL: /api/auth/signup
 ```
 **Method: POST**
 **Description: Register a new user with Aadhar Card number and password**.
+
 **Body Parameters:**
 ```sh
 json
@@ -73,6 +74,8 @@ URL: /api/auth/login
 ```
 **Method: POST**
 **Description: Log in a user with Aadhar Card number and password.**
+
+
 **Body Parameters:**
 ```sh
 json
@@ -83,6 +86,7 @@ json
 }
 ```
 ## Voting
+
 **Get Candidates**
 ```sh
 
@@ -97,8 +101,10 @@ URL: /api/vote/candidates
 
 URL: /api/vote
 ```
-Method: POST
-Description: Vote for a candidate (one vote per user).
+**Method: POST**
+
+**Description: Vote for a candidate (one vote per user).**
+
 Body Parameters:
 ```sh
 json
@@ -113,16 +119,22 @@ json
 
 URL: /api/vote/counts
 ```
-Method: GET
+**Method: GET**
+
 Description: Retrieve the real-time vote counts for candidates.
+
 ## Admin
+
 **Add Candidate**
 ```sh
 
 URL: /api/admin/candidate
 ```
 Method: POST
+
 Description: Add a new candidate.
+
+
 Body Parameters:
 ```sh
 json
