@@ -22,7 +22,7 @@ VoteGuard is a secure voting system developed using Node.js, Express.js, MongoDB
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/saptaneel/voteguard.git
+   git clone https://github.com/Saptaneel/voteguard.git
    ```
 2.  **Navigate to the project directory**
    ```sh
