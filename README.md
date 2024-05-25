@@ -56,6 +56,7 @@ JWT_SECRET=your_jwt_secret_key
 URL: /api/auth/signup
 ```
 **Method: POST**
+
 **Description: Register a new user with Aadhar Card number and password**.
 
 **Body Parameters:**
@@ -73,6 +74,8 @@ json
 URL: /api/auth/login
 ```
 **Method: POST**
+
+
 **Description: Log in a user with Aadhar Card number and password.**
 
 
@@ -150,7 +153,11 @@ json
 URL: /api/admin/candidate/:id
 ```
 Method: PUT
+
+
 Description: Update candidate information.
+
+
 Body Parameters:
 ```sh
 json
